@@ -37,7 +37,7 @@ go run .
         - Add the permissions your API uses here (e.g `read:host`, `read:user`...)
         - Copy the  value of the `audience` setting (the same as `Identifier`) into your `AUTH0_AUDIENCE` environment variable set in the .env file
     - A Machine to Machine (M2M) application (this is your API client)
-        - When creating the application, you should be prompted with a question for which permissions to grant it. Add all (or some, as desired) of the permissions you previously created in the API application.
+        - When creating the client application, you should be prompted with a question for which permissions to grant it. Add all (or some, as desired) of the permissions you previously created in the API application.
         - Copy the values of Domain, Client ID, and Client Secret into the `AUTH0_CLIENT_ID`, `AUTH0_DOMAIN`, `AUTH0_CLIENT_SECRET` environment variableS set in the .env file
     - Authorise the API Client to use the API application (you can do this from the 'Machine to Machine applications tab in the API application settings)
 

@@ -3,7 +3,7 @@ package api
 import (
 	"fmt"
 	"net/http"
-	"nfs002/gallery/auth/middleware"
+	"nfs002/template/v2/auth/middleware"
 
 	jwtmiddleware "github.com/auth0/go-jwt-middleware/v2"
 	"github.com/auth0/go-jwt-middleware/v2/validator"

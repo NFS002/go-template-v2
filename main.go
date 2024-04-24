@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	"nfs002/gallery/routing"
+	"nfs002/template/v2/routing"
 	"os"
 	"time"
 

@@ -1,8 +1,8 @@
 package api
 
 import (
-	"nfs002/gallery/auth/middleware"
-	h "nfs002/gallery/routing/api/handlers"
+	"nfs002/template/v2/auth/middleware"
+	h "nfs002/template/v2/routing/api/handlers"
 
 	"github.com/gin-gonic/gin"
 	adapter "github.com/gwatts/gin-adapter"

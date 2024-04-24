@@ -1,4 +1,4 @@
-module nfs002/gallery
+module nfs002/template/v2
 
 go 1.22.1
 

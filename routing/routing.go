@@ -1,7 +1,7 @@
 package routing
 
 import (
-	api "nfs002/gallery/routing/api"
+	api "nfs002/template/v2/routing/api"
 
 	"github.com/gin-contrib/static"
 	"github.com/gin-gonic/gin"
