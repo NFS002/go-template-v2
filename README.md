@@ -10,7 +10,7 @@
 - Simple REST API using the popular [gin](https://github.com/gin-gonic/gin) framework for golang.
 - OAuth2.0 authentication provided by Auth0
 
-- All endpoints */api/(host|exhibition|host|user)* require JWT authentication 
+- All endpoints */api/(host|exhibition|artist|user)* require JWT authentication 
 
 - Additionally, the GET /api/host endpoint requires a token with the `read:host` permission.
 
